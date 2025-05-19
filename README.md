@@ -35,7 +35,7 @@ python test_PT2.py --config config/PT2Net.yaml
 ```
 
 ## Acknowledgement
-- Our code is developed upon [DPDN](https://github.com/JiehongLin/Self-DPDN) and IST-Net.
+- Our code is developed upon [DPDN](https://github.com/JiehongLin/Self-DPDN) and [IST-Net]（https://github.com/CVMI-Lab/IST-Net）.
 - The dataset is provided by [NOCS](https://github.com/hughw19/NOCS_CVPR2019). 
 
 
