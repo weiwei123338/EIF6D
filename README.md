@@ -1,5 +1,5 @@
 # EIF6D
-![image](https://github.com/user-attachments/assets/a017f9e3-4bb2-4b46-a472-14073909696f)
+
 
 ## Getting startted
 #### ***Prepare the environment***
