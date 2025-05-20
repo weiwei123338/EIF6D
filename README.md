@@ -24,7 +24,7 @@ and [instruction](https://github.com/mentian/object-deformnet) in SPD.
 ### Training from scartch
 ```shell
 # gpus refers to the ids of gpu. For single gpu, please set it as 0
-python train_PT2.py --gpus 0,1 --config config/PT2Net.yaml
+python trainPT2Net.py --gpus 0,1 --config config/PT2Net.yaml
 ```
 
 
