@@ -44,13 +44,30 @@ For the REAL275 and CAMERA25 datasets, please follow:
 
 The datasets should be organized in the following structure:
 ```
-datasets/
-├── CAMERA/
-│   ├── train/
-│   └── val/
-└── REAL/
-    ├── train/
-    └── test/
+data
+├── CAMERA
+│   ├── train
+│   └── val
+├── camera_full_depths
+│   ├── train
+│   └── val
+├── Real
+│   ├── train
+│   └── test
+├── gts
+│   ├── val
+│   └── real_test
+├── obj_models
+│   ├── train
+│   ├── val
+│   ├── real_train
+│   └── real_test
+├── segmentation_results
+│   ├── train_trainedwoMask
+│   ├── test_trainedwoMask
+│   └── test_trainedwithMask
+└── mean_shapes.npy
+
 ```
 
 ## Training
