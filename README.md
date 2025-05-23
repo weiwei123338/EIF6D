@@ -1,6 +1,5 @@
 # EIF6D
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Code for "EIF-6D: Dual-Stream Transformation Network with Implicit-Explicit Fusion for Category-Level 6D Pose Estimation"
 ## Overview
