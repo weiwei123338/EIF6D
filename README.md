@@ -1,4 +1,4 @@
-# EIF6D
+# EIF6D: Dual-Stream Transformation Network with Implicit-Explicit Fusion for Category-Level 6D Pose Estimation
 
 
 Code for "EIF-6D: Dual-Stream Transformation Network with Implicit-Explicit Fusion for Category-Level 6D Pose Estimation"
