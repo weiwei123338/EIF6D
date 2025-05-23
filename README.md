@@ -2,11 +2,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-EIF6D is a state-of-the-art framework for category-level 6D pose estimation, leveraging implicit feature representation for accurate and robust object pose recovery.
-
+Code for "EIF-6D: Dual-Stream Transformation Network with Implicit-Explicit Fusion for Category-Level 6D Pose Estimation"
 ## Overview
 
-EIF6D introduces a novel approach to category-level 6D pose estimation by combining point cloud processing with deep implicit feature learning. Our method achieves superior performance on standard benchmarks while maintaining computational efficiency.
+EIF6D introduces a novel approach to category-level 6D pose estimation,a dual-stream transformation network that integrates explicit and implicit collaborative deformation mechanisms, which achieves high-precision alignment between shape priors and observed objects at both point cloud level and feature level..
 
 ## Installation
 
