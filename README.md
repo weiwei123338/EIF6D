@@ -1,4 +1,4 @@
-# EIF6D: Efficient Implicit Feature-based 6D Pose Estimation
+# EIF6D
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -21,10 +21,8 @@ conda activate eif6d
 ```
 
 The environment includes:
-- PyTorch 1.10.0 with CUDA 11.3 support
-- Point cloud processing libraries (Open3D, trimesh)
-- Visualization tools (matplotlib, pyrender)
-- Deep learning utilities (tensorboardX)
+- PyTorch 1.10.1 with CUDA 11.3 support
+- Python 3.6.13
 
 ### Compilation
 
@@ -81,22 +79,21 @@ python test_PT2.py --config config/PT2Net.yaml
 
 Our method achieves state-of-the-art performance on the REAL275 and CAMERA25 benchmarks:
 
-| Method | 5° 2cm | 5° 5cm | 10° 2cm | 10° 5cm |
-|--------|--------|--------|---------|---------|
-| EIF6D  | 42.7   | 61.5   | 57.3    | 76.2    |
+| Method | 5° 2cm | 5° 5cm | 10° 2cm | 10° 5cm | IoU75 | 
+|--------|--------|--------|---------|---------|-------|
+| NOCS   | 7.2    | 10.0   | 13.8    | 25.2    | 30.1  |
+|--------|--------|--------|---------|---------| ------|
+|RBP-Pose| 38.2   | 48.1   | 63.1    | 79.2    | 67.8  | 
+|--------|--------|--------|---------|---------|-------|
+|  DPDN  | 46.0   | 50.7   | 70.4    | 78.4    | 76.0  |
+|--------|--------|--------|---------|---------|-------|
+|IST-Net | 47.5   | 53.4   | 72.1    | 80.5    | 76.6  |
+|--------|--------|--------|---------|---------|-------|
+| EIF6D  | 50.6   | 57.4   | 72.7    | 81.5    | 77.1  |
 
 ## Citation
 
-If you find our work useful in your research, please consider citing:
 
-```bibtex
-@inproceedings{eif6d2023,
-  title={EIF6D: Efficient Implicit Feature-based 6D Pose Estimation},
-  author={Your Name},
-  booktitle={Conference},
-  year={2023}
-}
-```
 
 ## Acknowledgements
 
